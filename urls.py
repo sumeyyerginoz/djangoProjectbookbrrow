@@ -18,8 +18,8 @@ from django.urls import include,path
 
 urlpatterns = (
     # oluşturduğum dosyalarda yönlendirici (root) ekleme
-    path('', include('.........PycharmProjects.djangoProjectbookbrrow.home.urls')),  # sayfamıza bir şey eklemzsek home page in açılması için boş bırakmamız gerekiyor
-    path('home/', include('.........PycharmProjects.djangoProjectbookbrrow.home.urls')),
+    path('', include('home.urls')),  # sayfamıza bir şey eklemzsek home page in açılması için boş bırakmamız yeterlli
+    path('home/', include('home.urls')), #homme url i ni ekleme yapıyoruz
     path('product/', include('product.urls')),
     path('admin/', admin.site.urls),
 )
