@@ -31,8 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'home.apps.HomeConfig', # bu kısımda ?????
     'product.apps.ProductConfig',
-    '.........PycharmProjects.djangoProjectbookbrrow.home.apps.HomeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
